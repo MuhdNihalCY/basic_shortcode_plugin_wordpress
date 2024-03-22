@@ -1,11 +1,9 @@
 <?php 
 /*
 Plugin Name: Social links
-Plugin URI: https://example.com
 Description: A very basic test plugin for subscriptions link
 Version: 1.0
 Author: Nihal
-Author URI: https://example.com
 License: GPL2
 */ 
 
