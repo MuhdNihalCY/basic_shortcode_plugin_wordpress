@@ -4,7 +4,7 @@ Plugin Name: Social links
 Description: A very basic test plugin for subscriptions link
 Version: 1.0
 Author: Nihal
-License: GPL2
+License: GPL2   
 */ 
 
 function social_link_att($atts) {
@@ -23,8 +23,6 @@ function enqueue_custom_styles() {
 
     // Enqueue your custom stylesheet
     wp_enqueue_style('style', $dir_url);
-}
+}   
 
-// Ensure this line is present to call the function
 add_action('wp_enqueue_scripts', 'enqueue_custom_styles');
-
